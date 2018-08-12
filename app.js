@@ -3,6 +3,7 @@ const bodyParser = require("body-parser");
 const path = require("path");
 const expressValidator = require("express-validator");
 const sassMiddleware = require('node-sass-middleware');
+let port = process.env.PORT || 8080;
 let app = express();
 
 /*
@@ -48,6 +49,6 @@ app.get("/projects", function(req, res) {
 	})
 });
 
-app.listen(80, function(){
-	console.log("Server started at port 80");
+app.listen(port, function(){
+	console.log("Server started at port" + port);
 });
