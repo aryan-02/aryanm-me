@@ -6,14 +6,6 @@ const sassMiddleware = require('node-sass-middleware');
 let port = process.env.PORT || 8080;
 let app = express();
 
-/*
-let logger = function(req, res, next) {
-	console.log("Logging");
-	next();
-}
-app.use(logger);
-*/
-
 app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "views"));
 
