@@ -2,7 +2,6 @@
 <html>
 	<head>
 		<title>Aryan | <%= title%></title>
-		<link rel="stylesheet" href="/css/css/base.css">
 		<link rel="stylesheet" href=css/css/<%=title.toLowerCase()%>.css>
 		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 		<script src="/scripts/quietflow.min.js"></script>
@@ -10,14 +9,14 @@
 	<body>
 	<header <% if(title.toLowerCase() != "home") { %> class="scrolled"<% } %>>
 		<nav class="left">
-			<a href="/" class="active">Home</a>
-			<a href="/projects">Projects</a>
+			<a href="/" <% if(title.toLowerCase() == "home") { %>class="active"<% } %> >Home</a>
+			<a href="/projects" <% if(title.toLowerCase() == "projects") { %>class="active"<% } %> >Projects</a>
 		</nav>
 		<div class="logo green">
 			<h1>Aryan Mediratta</h1>
 		</div>
 		<nav class="right">
 			<a href="/resume.pdf">Résumé</a>
-			<a href="">Contact</a>
+			<a href="" <% if(title.toLowerCase() == "contact") { %>class="active"<% } %>>Contact</a>
 		</nav>
 	</header>
