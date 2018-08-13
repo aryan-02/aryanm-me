@@ -3,7 +3,8 @@ const bodyParser = require("body-parser");
 const path = require("path");
 const expressValidator = require("express-validator");
 const sassMiddleware = require('node-sass-middleware');
-let port = process.env.PORT || 8080;
+let port = 8080;
+port = process.env.PORT;
 let app = express();
 
 app.set("view engine", "ejs");
