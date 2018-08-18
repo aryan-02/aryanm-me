@@ -33,3 +33,15 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
+/* body {
+    background-image: url("/img/stripes.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+.white-bg {
+    background: white;
+    & > * {
+        background: white;
+    }
+}
