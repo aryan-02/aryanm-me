@@ -67,7 +67,13 @@ body {
 			font-size: 1rem;
 			user-select: none;
 		}
-		.hamburger {
+		h1 {
+			@media screen and (max-width: 450px)
+			{
+				font-size: 1.5em;
+			}
+		}
+		.mobile {
 			@media screen and (min-width: 550px) { 
 				display: none;
 			}
@@ -79,7 +85,7 @@ body {
 			vertical-align: middle;
 			display: flex;
 			text-align: center;
-			font-size: 1.2rem;
+			font-size: 1.2em;
 			a{
 				color: white;
 				text-decoration: none;

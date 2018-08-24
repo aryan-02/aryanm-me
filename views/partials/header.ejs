@@ -9,8 +9,22 @@
 	</head>
 	<body>
 	<header <% if(title.toLowerCase() != "home") { %> class="scrolled"<% } %>>
-		<div class="hamburger">
-			
+		<div class="mobile">
+			<div id="nav-icon">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div id="overlay">
+				<div>
+					<ul>
+						<li><a href="/">Home</a></li>
+						<li><a href="/projects">Projects</a></li>
+						<li><a href="/resume.pdf">Résumé</a></li>
+						<li><a href="/contact">Contact</a></li>
+					</ul>
+				</div>
+			</div>
 		</div>
 		<nav class="left">
 			<a href="/" <% if(title.toLowerCase() == "home") { %>class="active"<% } %> >Home</a>
