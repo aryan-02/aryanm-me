@@ -51,7 +51,7 @@ body {
 		height: auto;
 		padding: .5rem 1rem;
 		display: flex;
-		@media screen and (max-width: 550px) { 
+		@media screen and (max-width: 898px) { 
 			display: block
 		}
 		align-items: center;
@@ -74,12 +74,12 @@ body {
 			}
 		}
 		.mobile {
-			@media screen and (min-width: 550px) { 
+			@media screen and (min-width: 898px) { 
 				display: none;
 			}
 		}
 		nav {
-			@media screen and (max-width: 550px) { 
+			@media screen and (max-width: 898px) { 
 				display: none;
 			}
 			vertical-align: middle;
