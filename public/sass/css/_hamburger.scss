@@ -28,15 +28,15 @@
 }
 
 #nav-icon span:nth-child(1) {
-  top: 0px;
+  top: calc(0px + 6px);
 }
 
 #nav-icon span:nth-child(2) {
-  top: 12px;
+  top: calc(12px + 6px);
 }
 
 #nav-icon span:nth-child(3) {
-  top: 24px;
+  top: calc(24px + 6px);
 }
 
 #nav-icon.animate-icon span:nth-child(1) {
