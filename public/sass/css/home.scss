@@ -33,12 +33,29 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
-/* body {
-    background-image: url("/img/stripes.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-} */
+.badge-card {
+    width: 150px; 
+    height: 240px; 
+    border: 1px solid #e5e5e5;
+    img {
+        max-width: 150px; 
+        height: auto; 
+        margin: auto; 
+        padding: 10px;
+    }
+    a {
+        text-decoration: none;
+    }
+    p {
+        font-family: Helvetica, Arial, 'Lucida Grande', sans-serif;
+        color: #333;
+        font-size: 1rem;
+    }
+    i {
+        font-size: .81rem; 
+        color: #666;
+    }
+}
 .white-bg {
     background: white;
     & > * {

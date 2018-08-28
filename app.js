@@ -40,6 +40,11 @@ app.get("/projects", function(req, res) {
 		title: "Projects",
 	})
 });
+app.get("/contact", function(req, res) {
+	res.render("contact", {
+		title: "Contact",
+	})
+});
 
 app.listen(port, function(){
 	console.log("Server started at port" + port);

@@ -1,0 +1,54 @@
+@import '_base';
+@import url("https://use.fontawesome.com/releases/v5.2.0/css/all.css");
+
+dl {
+	font-size: 1.5rem;
+	@media screen and (max-width: 898px) { 
+		font-size: 1rem;
+	}
+	dt {
+		text-decoration: underline;
+	}
+	ul, ul > li {
+		font-size: 1.5rem;
+		@media screen and (max-width: 898px) { 
+			font-size: 1rem;
+		}
+		transition: all 1s;
+		margin: 0!important;
+	}
+	a {
+		color: black;
+		text-decoration: none;
+		transition: opacity .5s;
+		opacity: 1;
+		&:hover {
+			opacity: .7;
+
+		}
+	}
+}
+
+.fa-li {
+	transition: all .5s;
+}
+
+li:hover .fa-li {
+	
+	color: $green;
+			
+}
+
+.email-part {
+	color: red;
+	&::before {
+		content: "[";
+		color: mediumblue;
+		// background: red;
+	}
+	&::after {
+		content: "]";
+		color: mediumblue;
+		// background: red;
+	}
+}
