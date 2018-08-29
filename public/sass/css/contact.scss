@@ -33,14 +33,27 @@ dl {
 	transition: all .5s;
 }
 
-li:hover .fa-li {
+li:hover {
 	
-	color: $green;
+	.fa-facebook {
+		color: #3b5998;
+	}
+	.fa-stack-overflow {
+		color: #f48024;
+	}
+	.fa-github {
+		color: #6e5494;
+	}
+	.fa-youtube {
+		color: #ff0000;
+	}
+
 			
 }
 
 .email-part {
 	color: red;
+	cursor: help;
 	&::before {
 		content: "[";
 		color: mediumblue;
