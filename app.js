@@ -28,24 +28,31 @@ app.use(sassMiddleware({
 // Set static path
 app.use(express.static(path.join(__dirname, "public")));
 
+// Get current year
+let date = new Date();
+let year = date.getFullYear();
+
 // Routing
 
 app.get("/", function(req, res) {
 	res.render("index", {
 		title: "Home",
+		year: year
 	})
 });
 app.get("/projects", function(req, res) {
 	res.render("projects", {
 		title: "Projects",
+		year: year
 	})
 });
 app.get("/contact", function(req, res) {
 	res.render("contact", {
 		title: "Contact",
+		year: year
 	})
 });
 
 app.listen(port, function(){
-	console.log("Server started at port" + port);
+	console.log("Server started at port " + port);
 });

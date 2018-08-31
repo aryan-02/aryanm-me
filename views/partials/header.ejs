@@ -6,6 +6,9 @@
 		<link rel="stylesheet" href=css/css/<%=title.toLowerCase()%>.css>
 		<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
 		<script src="/scripts/quietflow.min.js"></script>
+		<% if(title.toLowerCase() == "home") { %> 
+			<script type="text/javascript" src="/scripts/anime.min.js"></script>
+		<% } %>
 	</head>
 	<body>
 	<header <% if(title.toLowerCase() != "home") { %> class="scrolled"<% } %>>
