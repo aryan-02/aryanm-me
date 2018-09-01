@@ -1,65 +1,70 @@
 @import "_base";
 .intro {
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-    color: white;
-    background-image: url("/img/dev.jpg");
-    background-size: 100% 100%;
-    background-attachment: fixed;
-    #face {
-        max-width: 50vh;
-        height: auto;
-        border-radius: 50%;
-        align-self: center;
-        z-index: 0;
-    }
-    h1 {
-        font-size: 2rem;
-    }
-    .text {
-        background: rgba(0, 0, 0, .7);
-        padding: 5px;
-        width: auto;
-        display: inline-block;
-        p {
-            font-size: 1.4rem;
-        }
-    }
+	width: 100%;
+	height: 100vh;
+	background-color: black;
+	color: white;
+	background-image: url("/img/dev.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	#face {
+		max-width: 50vh;
+		height: auto;
+		border-radius: 50%;
+		align-self: center;
+		z-index: 0;
+	}
+	h1 {
+		font-size: 2rem;
+	}
+	.text {
+		background: rgba(0, 0, 0, .7);
+		padding: 5px;
+		width: auto;
+		display: inline-block;
+		p {
+			font-size: 1.4rem;
+		}
+	}
 }
 .center {
-    position: absolute;
-    top: 50vh;
-    left: 50vw;
-    transform: translate(-50%, -50%);
-    text-align: center;
+	position: absolute;
+	top: 50vh;
+	left: 50vw;
+	transform: translate(-50%, -50%);
+	text-align: center;
 }
 .badge-card {
-    //width: 150px; 
-    // height: 270px; 
-    border: 1px solid #e5e5e5;
-    img {
-        max-width: 150px; 
-        height: auto; 
-        margin: auto; 
-        padding: 10px;
-    }
-    a {
-        text-decoration: none;
-    }
-    p {
-        font-family: Helvetica, Arial, 'Lucida Grande', sans-serif;
-        color: #333;
-        font-size: 1rem;
-    }
-    i {
-        font-size: .81rem; 
-        color: #666;
-    }
+	//width: 150px; 
+	// height: 270px; 
+	border: 1px solid #e5e5e5;
+	img {
+		max-width: 150px; 
+		height: auto; 
+		margin: auto; 
+		padding: 10px;
+	}
+	a {
+		text-decoration: none;
+	}
+	p {
+		font-family: Helvetica, Arial, 'Lucida Grande', sans-serif;
+		color: #333;
+		font-size: 1rem;
+	}
+	i {
+		font-size: .81rem; 
+		color: #666;
+	}
 }
 .white-bg {
-    background: white;
-    & > * {
-        background: white;
-    }
+	background: white;
+	& > * {
+		background: white;
+	}
+}
+.fireworks {
+	@media screen and (max-width: 898px) { 
+		display: none;
+	}
 }
