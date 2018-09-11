@@ -3,9 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
 $green: rgb(5,235,26);
+$red: #F44336;
 
 * {
 	box-sizing: border-box;
+}
+.prep {
+	color: $red;
 }
 .selectDisable {
 	-webkit-user-select: none;
