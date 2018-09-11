@@ -68,3 +68,31 @@
 		display: none;
 	}
 }
+.edu {
+	padding-top: 12px;
+	padding-bottom: 12px;
+	margin-top: -20px!important;
+	.material-icons {
+		transform: scale(3);
+		margin: 25px;
+		user-select: none;
+		@extend .green;
+
+	}
+	.card {
+		margin: 1rem;
+		border: 1px solid $green;
+		display: inline-block;
+		padding: 2vw;
+		border-radius: 20px;
+
+	}
+	.level {
+		padding-bottom: 10px;
+		display: inline-block;
+		position: static;
+	}
+	.school-name {
+		@extend .green;
+	}
+}
