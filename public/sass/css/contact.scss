@@ -2,7 +2,7 @@
 
 dl {
 	font-size: 1.5rem;
-	@media screen and (max-width: 898px) { 
+	@media screen and (max-width: 898px) {
 		font-size: 1rem;
 	}
 	dt {
@@ -10,7 +10,7 @@ dl {
 	}
 	ul, ul > li {
 		font-size: 1.5rem;
-		@media screen and (max-width: 898px) { 
+		@media screen and (max-width: 898px) {
 			font-size: 1rem;
 		}
 		transition: all 1s;
