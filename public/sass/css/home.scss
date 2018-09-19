@@ -35,13 +35,13 @@
 	text-align: center;
 }
 .badge-card {
-	//width: 150px; 
-	// height: 270px; 
+	//width: 150px;
+	// height: 270px;
 	border: 1px solid #e5e5e5;
 	img {
-		max-width: 150px; 
-		height: auto; 
-		margin: auto; 
+		max-width: 150px;
+		height: auto;
+		margin: auto;
 		padding: 10px;
 	}
 	a {
@@ -53,7 +53,7 @@
 		font-size: 1rem;
 	}
 	i {
-		font-size: .81rem; 
+		font-size: .81rem;
 		color: #666;
 	}
 }
@@ -64,7 +64,7 @@
 	}
 }
 .fireworks {
-	@media screen and (max-width: 898px) { 
+	@media screen and (max-width: 898px) {
 		display: none;
 	}
 }
