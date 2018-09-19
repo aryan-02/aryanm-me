@@ -1,24 +1,23 @@
 {
-  "name": "aryanm",
-  "version": "1.0.0",
-  "description": "",
-  "main": "app.js",
-  "scripts": {
-    "start": "node app.js",
-    "start-dev": "nodemon app.js",
-    "test": "echo \"Error: no test specified\""
-  },
-  "license": "ISC",
-  "dependencies": {
-    "animejs": "^2.2.0",
-    "body-parser": "*",
-    "ejs": "^2.6.1",
-    "express": "^4.16.3",
-    "express-validator": "*",
-    "node-sass": "*",
-    "node-sass-middleware": "*"
-  },
-  "devDependencies": {
-    "nodemon": "*"
-  }
+	"name": "aryanm",
+	"version": "1.0.0",
+	"description": "",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app.js",
+		"start-dev": "nodemon app.js",
+		"test": "echo \"Error: no test specified\""
+	},
+	"license": "ISC",
+	"dependencies": {
+		"animejs": "^2.2.0",
+		"body-parser": "*",
+		"ejs": "^2.6.1",
+		"express": "^4.16.3",
+		"node-sass": "*",
+		"node-sass-middleware": "*"
+	},
+	"devDependencies": {
+		"nodemon": "*"
+	}
 }
