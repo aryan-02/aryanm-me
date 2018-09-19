@@ -10,7 +10,6 @@
 	},
 	"license": "ISC",
 	"dependencies": {
-		"animejs": "^2.2.0",
 		"body-parser": "*",
 		"ejs": "^2.6.1",
 		"express": "^4.16.3",
