@@ -30,7 +30,7 @@ body {
 		padding: 0;
 	}
 	.gradient {
-		background: #34e89e; 
+		background: #34e89e;
   background: -webkit-linear-gradient(to bottom, black, black, white);
   background: linear-gradient(to bottom, black, black, white);
 		-webkit-background-clip: text;
@@ -59,7 +59,7 @@ body {
 		height: auto;
 		padding: .5rem 1rem;
 		display: flex;
-		@media screen and (max-width: 898px) { 
+		@media screen and (max-width: 898px) {
 			display: block
 		}
 		align-items: center;
@@ -82,12 +82,12 @@ body {
 			}
 		}
 		.mobile {
-			@media screen and (min-width: 898px) { 
+			@media screen and (min-width: 898px) {
 				display: none;
 			}
 		}
 		nav {
-			@media screen and (max-width: 898px) { 
+			@media screen and (max-width: 898px) {
 				display: none;
 			}
 			vertical-align: middle;
@@ -105,7 +105,7 @@ body {
 			}
 			> * {
 				flex: 1;
-			} 
+			}
 		}
 		.active {
 			@extend .green;
@@ -140,7 +140,7 @@ body {
 			display: block;
 			font-size: 3rem;
 			position: relative;
-			padding-bottom: 30px; 
+			padding-bottom: 30px;
 		}
 		h1 + * {
 			margin-top: 1rem;
