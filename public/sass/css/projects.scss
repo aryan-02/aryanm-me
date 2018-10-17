@@ -1,2 +1,17 @@
 @import '_base';
 @import '_accord';
+
+.project {
+	padding: 10px;
+	margin: 40px;
+	border-radius: 50px;
+	border: 2px solid green;
+	img {
+		max-width: 70%;
+		height: auto;
+		border-radius: 20px;
+	}
+	.url {
+		padding: 15px;
+	}
+}
