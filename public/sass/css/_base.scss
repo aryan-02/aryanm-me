@@ -170,3 +170,18 @@ background: -webkit-linear-gradient(to right, #db36a4, #f7ff00);  /* Chrome 10-2
 background: linear-gradient(to right, #db36a4, #f7ff00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
+.achievements {
+	.year {
+		color: orange;
+	}
+	h2 {
+		font-family: "Roboto Slab";
+		font-size: 2.1rem;
+	}
+	h3 {
+		color: $green;
+	}
+	max-width: 600px;
+	margin: auto;
+	text-align: left;
+}
