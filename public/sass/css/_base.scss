@@ -19,6 +19,7 @@ $red: #F44336;
 	-o-user-select: none;
 	user-select: none;
 }
+
 body {
 	margin: 0;
 	padding: 0;
@@ -172,12 +173,13 @@ background: linear-gradient(to right, #db36a4, #f7ff00); /* W3C, IE 10+/ Edge, F
 
 }
 .achievements {
+	font-size: 1.5rem;
 	.year {
 		color: orange;
 	}
 	h2 {
 		font-family: "Roboto Slab";
-		font-size: 2.1rem;
+		font-size: 1.5em;
 	}
 	h3 {
 		color: $green;
@@ -185,4 +187,13 @@ background: linear-gradient(to right, #db36a4, #f7ff00); /* W3C, IE 10+/ Edge, F
 	max-width: 600px;
 	margin: auto;
 	text-align: left;
+	#more {
+		display: none;
+	}
+	button {
+		padding: 1.1rem;
+		border-radius: 10px;
+		font-size: 1.8rem;
+		cursor: pointer;
+	}
 }
