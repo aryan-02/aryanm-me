@@ -40,7 +40,7 @@ $(function(){
 
 // Ripple
 
-;(function (window, $) {
+(function (window, $) {
   
   $(function() {
     
