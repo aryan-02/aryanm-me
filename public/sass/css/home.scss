@@ -100,3 +100,16 @@
 		@extend .green;
 	}
 }
+
+.enjoy {
+	text-align: left;
+	ul, * {
+		font-size: 1.2rem;
+	}
+	li {
+		@extend .green;
+	}
+	li li {
+		color: white;
+	}
+}
