@@ -51,6 +51,10 @@ app.get("/contact", function(req, res) {
 	})
 });
 
+app.get("/eduvisa-sat", function(req, res){
+	res.redirect("https://youtu.be/dQw4w9WgXcQ");
+});
+
 app.listen(port, function(){
 	console.log("Server started at port " + port);
 });
