@@ -51,8 +51,8 @@ app.get("/contact", function(req, res) {
 	})
 });
 
-app.get("/eduvisa-sat", function(req, res){
-	res.redirect("https://youtu.be/dQw4w9WgXcQ");
+app.get("/acm", function(req, res) {
+	res.redirect("https://discord.gg/UHYxZSDm");
 });
 
 app.listen(port, function(){
